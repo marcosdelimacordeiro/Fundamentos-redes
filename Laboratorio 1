@@ -1,0 +1,64 @@
+
+# Laboratório 01 – Configuração básica do VMware, EVE-NG e MikroTik
+
+## Objetivo
+
+Preparar o ambiente de virtualização e emulação de redes utilizando VMware e EVE-NG, além de realizar as configurações iniciais de um roteador MikroTik CHR.
+
+## Atividades realizadas
+
+- Instalação e configuração do VMware.
+- Configuração do EVE-NG.
+- Instalação e utilização do PuTTY.
+- Adição do MikroTik CHR e Linux ao ambiente.
+- Identificação das interfaces de rede.
+- Configuração de endereços IP e rota padrão.
+- Gerenciamento de usuários e senhas.
+- Configuração de data, hora e sincronização NTP.
+- Verificação de atualizações do RouterOS.
+- Estudo de upgrade e downgrade.
+- Criação de backup e exportação das configurações.
+
+## Ambiente utilizado
+
+| Ferramenta | Descrição |
+|---|---|
+| VMware | Virtualização |
+| EVE-NG | Emulação de redes |
+| MikroTik CHR | Roteador virtual |
+| WinBox | Gerenciamento gráfico |
+| PuTTY | Acesso ao terminal |
+| Linux | Máquina para testes |
+
+## Topologia
+
+```text
+       Internet / ISP
+              |
+           ether1
+              |
+       +---------------+
+       | MikroTik CHR  |
+       +---------------+
+              |
+           ether2
+              |
+          PC Linux
+```
+
+## Arquivos do laboratório
+
+- **Documentacao:** relatório completo do laboratório em PDF.
+- **Backup:** arquivos de backup do MikroTik CHR.
+- **Export:** exportação das configurações do equipamento.
+- **Arquivos-Praticos:** arquivos utilizados durante a realização do laboratório.
+
+## Resultado
+
+Neste laboratório foram realizados os primeiros procedimentos de configuração do MikroTik CHR, permitindo conhecer o ambiente de gerenciamento, os comandos básicos do RouterOS e os conceitos iniciais de administração de redes.
+
+A atividade serviu como base para os próximos laboratórios da formação em Analista de Redes.
+
+## Observação
+
+Laboratório desenvolvido em ambiente virtualizado, com finalidade educacional e prática.
